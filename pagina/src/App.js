@@ -2,6 +2,7 @@
 import './App.css';
 import Logo from './componentes/Logo/Logo';
 import Navbar from './componentes/Navbar/Navbar';
+import Carousel from './componentes/Carousel/Carousel'; // Importa el componente Carousel
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
         <Logo />
         <Navbar />
       </header>
+      <Carousel /> 
     </div>
   );
 }
