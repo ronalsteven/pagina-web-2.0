@@ -1,0 +1,5 @@
+/* ShoppingCartIcon.css */
+.shopping-cart-icon img {
+    width: 30px; /* Ajusta el tamaño según lo necesites */
+    height: auto;
+}
