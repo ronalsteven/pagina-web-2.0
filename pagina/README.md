@@ -16,7 +16,7 @@ La aplicación consta de varios componentes, cada uno con su propio archivo de p
 
 La aplicación tiene un diseño atractivo y fácil de usar, con un esquema de colores que incluye un fondo de color cian y texto blanco. El logotipo de la aplicación es redondeado para darle un aspecto moderno y elegante.
 
-Puedes ver el código fuente del proyecto en GitHub.
+Puedes ver el código fuente del proyecto en GitHub.  https://github.com/ronalsteven/pagina-web-2.0.git
 
 ## Autor
 
