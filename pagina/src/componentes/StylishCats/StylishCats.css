@@ -1,14 +1,23 @@
-/* StylishDogs.css */
-.stylish-dogs {
+/* StylishCats.css */
+.stylish-cats {
     display: flex;
     justify-content: space-between;
     margin: 20px 0; /* Añade espacio arriba y abajo */
-    background: linear-gradient(to right, #ADD8E6, #0000CD); /* Fondo degradado */
+    background: linear-gradient(to right, #FFB6C1, #800080); /* Fondo degradado */
     padding: 20px; /* Espacio interior */
     border-radius: 10px; /* Bordes redondeados */
 }
 
-.stylish-dogs .text {
+.stylish-cats .image {
+    width: 50%;
+}
+
+.stylish-cats .image img {
+    width: 100%;
+    height: auto;
+}
+
+.stylish-cats .text {
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -17,19 +26,10 @@
     color: white; /* Color de texto blanco */
 }
 
-.stylish-dogs .text h1 {
+.stylish-cats .text h1 {
     font-size: 3em; /* Ajusta el tamaño de la fuente */
 }
 
-.stylish-dogs .text p {
+.stylish-cats .text p {
     font-size: 1.5em; /* Ajusta el tamaño de la fuente */
-}
-
-.stylish-dogs .image {
-    width: 50%;
-}
-
-.stylish-dogs .image img {
-    width: 100%;
-    height: auto;
 }
