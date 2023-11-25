@@ -3,6 +3,11 @@
   background-color: #84FFFF; /* Color de fondo cian */
 }
 
+.App {
+  text-align: center;
+  background-color: #84FFFF; /* Color de fondo cian */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

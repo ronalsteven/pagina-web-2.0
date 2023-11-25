@@ -1,0 +1,22 @@
+/* FeaturedItems.css */
+.featured-items {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0; /* Añade espacio arriba y abajo */
+}
+
+.featured-items .item {
+    width: calc(100% / 3 - 20px); /* Divide el ancho entre tres y resta el espacio de separación */
+    margin: 10px; /* Añade espacio de separación */
+    text-align: center; /* Centra el texto */
+}
+
+.featured-items .item img {
+    width: 100%;
+    height: auto;
+}
+
+.featured-items .item h2 {
+    font-size: 1.5em; /* Ajusta el tamaño de la fuente */
+    color: white; /* Color de texto blanco */
+}
