@@ -4,7 +4,8 @@ import Logo from './componentes/Logo/Logo';
 import Navbar from './componentes/Navbar/Navbar';
 import Carousel from './componentes/Carousel/Carousel';
 import ShoppingCartIcon from './componentes/ShoppingCartIcon/ShoppingCartIcon';
-import FeaturedItems from './componentes/FeaturedItems/FeaturedItems'; // Importa el componente FeaturedItems
+import FeaturedItems from './componentes/FeaturedItems/FeaturedItems';
+import StylishDogs from './componentes/StylishDogs/StylishDogs'; // Importa el componente StylishDogs
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <ShoppingCartIcon />
       </header>
       <Carousel />
-      <FeaturedItems /> 
+      <FeaturedItems />
+      <StylishDogs /> 
     </div>
   );
 }

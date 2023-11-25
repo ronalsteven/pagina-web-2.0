@@ -1,0 +1,33 @@
+/* StylishDogs.css */
+.stylish-dogs {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0; /* Añade espacio arriba y abajo */
+}
+
+.stylish-dogs .text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el texto verticalmente */
+    align-items: center; /* Centra el texto horizontalmente */
+}
+
+.stylish-dogs .text h1 {
+    font-size: 3em; /* Ajusta el tamaño de la fuente */
+    color: black; /* Color de texto negro */
+}
+
+.stylish-dogs .text p {
+    font-size: 1.5em; /* Ajusta el tamaño de la fuente */
+    color: black; /* Color de texto negro */
+}
+
+.stylish-dogs .image {
+    width: 50%;
+}
+
+.stylish-dogs .image img {
+    width: 100%;
+    height: auto;
+}
