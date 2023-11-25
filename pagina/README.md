@@ -1,3 +1,28 @@
+# Clean Pets
+
+Clean Pets es una aplicación web desarrollada por Ronal Steven Restrepo. Esta aplicación proporciona una plataforma para los amantes de las mascotas, ofreciendo una variedad de productos y servicios para perros y gatos.
+
+La aplicación consta de varios componentes, cada uno con su propio archivo de prueba `test.js`:
+
+- **Logo**: Este componente muestra el logotipo de Clean Pets.
+- **Navbar**: Este componente muestra la barra de navegación de la aplicación.
+- **Carousel**: Este componente muestra un carrusel de imágenes destacadas.
+- **FeaturedItems**: Este componente muestra una lista de los artículos destacados disponibles.
+- **StylishDogs**: Este componente muestra una colección de productos y servicios para perros.
+- **StylishCats**: Este componente muestra una colección de productos y servicios para gatos.
+- **MapContainer**: Este componente muestra un mapa interactivo de Google Maps.
+- **Footer**: Este componente muestra el pie de página de la aplicación, que incluye información de contacto y una ubicación en el mapa.
+- **ShoppingCartIcon**: Este componente muestra un icono de carrito de compras.
+
+La aplicación tiene un diseño atractivo y fácil de usar, con un esquema de colores que incluye un fondo de color cian y texto blanco. El logotipo de la aplicación es redondeado para darle un aspecto moderno y elegante.
+
+Puedes ver el código fuente del proyecto en GitHub.
+
+## Autor
+
+Ronal Steven Restrepo
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

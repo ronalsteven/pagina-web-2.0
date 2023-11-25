@@ -1,4 +1,5 @@
 /* Logo/Logo.css */
 .logo {
     width: 100px; /* Puedes ajustar el tamaño según lo necesites */
+    border-radius: 50%; /* Esto hace que tu logo sea redondeado */
 }

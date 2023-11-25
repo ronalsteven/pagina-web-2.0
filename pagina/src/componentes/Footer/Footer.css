@@ -1,15 +1,19 @@
 /* Footer.css */
 footer {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
     background-color: #20B2AA; /* Color de fondo verde mar claro */
     color: #FFFFFF; /* Color de texto blanco */
     padding: 10px;
 }
 
+.footer-sections {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
 .footer-section {
-    margin: 10px;
+    margin: 5px; /* Opción 2: Reducir el margen a 5px */
+    width: 30%; /* Opción 1: Establecer un ancho fijo para cada sección */
 }
 
 .footer-section h3 {
@@ -23,4 +27,21 @@ footer {
 
 .footer-section li {
     margin-bottom: 5px;
+}
+
+.map-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.full-width-map {
+    width: 100%; /* Asegura que el contenedor del mapa ocupe todo el ancho disponible */
+    flex: 1 0 100%; /* Esto permite que el contenedor del mapa se expanda para ocupar una línea completa en dispositivos más pequeños */
+}
+
+.centered-text {
+    text-align: center; /* Centra el texto horizontalmente */
+    width: 100%; /* Asegura que el contenedor del texto ocupe todo el ancho disponible */
+    flex: 1 0 100%; /* Esto permite que el contenedor del texto se expanda para ocupar una línea completa en dispositivos más pequeños */
 }
