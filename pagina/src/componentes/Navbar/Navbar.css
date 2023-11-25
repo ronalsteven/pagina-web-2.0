@@ -1,7 +1,7 @@
 /* Navbar/Navbar.css */
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 10px;
     background-color: #20B2AA; /* Color de fondo verde mar claro */
 }
